@@ -1,5 +1,6 @@
 package HotelMgmt.cli;
 
+import HotelMgmt.cli.customer.CustomerMenu;
 import HotelMgmt.model.User;
 import HotelMgmt.services.AuthServices;
 
@@ -24,7 +25,10 @@ public class LoginMenu {
         }
 
         if (user.getRole().equals("CUSTOMER")) {
-            System.out.println("Customer welcome");
+           CustomerMenu.showMenu();
+        }
+        if(user.getRole().equals("STAFF")){
+            System.out.println(user);
         }
 
     }
