@@ -1,15 +1,14 @@
 package HotelMgmt.model;
 
-public abstract class Staff extends User {
+public class Staff extends User {
 
-    protected String staffId;
-    protected String department;
+    private String staffId;
+    private String department;
 
-    public Staff(String id, String name, String email,
-                 String password, String status,
-                 String staffId, String department) {
+    public Staff(String id, String name, String email, String password,
+                 String role, String status, String staffId, String department) {
 
-        super(id, name, email, password, status);
+        super(id, name, email, password, role, status);
         this.staffId = staffId;
         this.department = department;
     }

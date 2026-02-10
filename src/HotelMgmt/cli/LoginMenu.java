@@ -19,13 +19,14 @@ public class LoginMenu {
         User user = AuthServices.login(email, pass);
 
         if (user == null) {
-            System.out.println("Invalid login");
+            System.out.println("no such user");
             return;
         }
 
-//        if (user.getRole().equals("CUSTOMER")) {
-//            CustomerMenu.show();
-//        }
+        if (user.getRole().equals("CUSTOMER")) {
+            System.out.println("Customer welcome");
+        }
+
     }
 
 }
