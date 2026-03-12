@@ -1,2 +1,3 @@
-000,Unique,uniq@gmail.com,password,CUSTOMER,online
-001,Ram,ram@gmail.com,ram123,STAFF,active,S001,Reception
+C001,Unique,unique@gmail.com,1234,ACTIVE,CUSTOMER
+C002,John,john@gmail.com,1234,ACTIVE,CUSTOMER
+S001,Ram,ram@gmail.com,1234,ACTIVE,SCHEDULER,STF101,OPERATIONSC1773037487006,unique prajapati,up900@gmail.com,99999999,ACTIVE,CUSTOMER

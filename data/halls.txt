@@ -1,0 +1,1 @@
+HALL17733268548721,Deluxe hall,AUDITORIUM,50,100.0,Very luxerious,false
